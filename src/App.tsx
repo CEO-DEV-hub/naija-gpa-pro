@@ -641,7 +641,6 @@ export default function App() {
         <div className="space-y-6">
           <div className="sticky top-24 space-y-6">
             <div className="bg-white p-8 text-black border rounded-lg space-y-6">
-              <h2 className="text-2xl font-bold border-b pb-2 mb-4">Official Statement of Results</h2>
               {/* CGPA Card */}
               <div className="glass-card p-8 relative overflow-hidden group border-black/10">
                 <div className="absolute -top-12 -right-12 w-32 h-32 bg-neon-cyan/10 blur-3xl group-hover:bg-neon-cyan/20 transition-all pointer-events-none" />
@@ -690,13 +689,6 @@ export default function App() {
                       <span className="text-xs font-bold text-black/20">out of {scale.toFixed(1)}</span>
                     </div>
                   </div>
-
-                  <div className="pt-4">
-                    <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black/5 border border-black/10 text-[10px] font-bold uppercase tracking-widest text-black/60">
-                      <CheckCircle2 size={12} className="text-emerald-600" />
-                      Real-time Calculation
-                    </div>
-                  </div>
                 </div>
               </div>
 
@@ -739,12 +731,6 @@ export default function App() {
                 </>
               )}
             </button>
-
-            {/* Session ID Footer */}
-            <div className="text-center">
-              <p className="text-[10px] font-bold text-white/10 uppercase tracking-[0.3em]">Session ID</p>
-              <p className="text-[10px] font-mono text-white/20 truncate px-4">{sessionId}</p>
-            </div>
           </div>
         </div>
       </main>
@@ -754,11 +740,6 @@ export default function App() {
         <p className="text-white/20 text-xs font-medium">
           Developed and Designed by Okafor Emmanuel Chukwuemeka 
         </p>
-        <div className="flex items-center justify-center gap-6">
-          <a href="#" className="text-white/40 hover:text-neon-cyan transition-colors text-[10px] font-bold uppercase tracking-widest">Privacy</a>
-          <a href="#" className="text-white/40 hover:text-neon-cyan transition-colors text-[10px] font-bold uppercase tracking-widest">Terms</a>
-          <a href="#" className="text-white/40 hover:text-neon-cyan transition-colors text-[10px] font-bold uppercase tracking-widest">Support</a>
-        </div>
       </footer>
     </div>
   );
