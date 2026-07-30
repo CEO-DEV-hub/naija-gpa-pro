@@ -6,7 +6,7 @@
 ---
 
 ## 🚀 Live Application
-**URL:** [https://naija-gpa-pro.vercel.app](https://naija-gpa-pro.vercel.app)
+**URL:** [https://naija-gpa-pro.onrender.com](https://naija-gpa-pro.onrender.com)
 
 ---
 
