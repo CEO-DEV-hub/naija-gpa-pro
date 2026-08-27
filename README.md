@@ -5,8 +5,6 @@
 
 ---
 
-## 🚀 Live Application
-**URL:** [https://naija-gpa-pro.onrender.com](https://naija-gpa-pro.onrender.com)
 
 ---
 
