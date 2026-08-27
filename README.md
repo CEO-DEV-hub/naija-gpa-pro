@@ -17,38 +17,11 @@
 * **Framework:** React (Vite, Typescript)
 * **Styling:** Tailwind CSS (Optimized for High-DPI screens)
 * **PDF Engine:** html2canvas & jsPDF
-* **Infrastructure:** Vercel (Deployment) & GitHub (Version Control)
-* **Reliability:** Cron-job.org (Keep-alive monitoring)
+* **Infrastructure:** Render (Deployment) & GitHub (Version Control)
 
----
 
-## 📐 Grading Logic (Nigerian University Standard)
 
-The system is calibrated to the following weightings:
 
-| Grade | 5.0 Scale | 4.0 Scale | Result |
-| :--- | :--- | :--- | :--- |
-| **A** | 5.0 | 4.0 | Excellent |
-| **B** | 4.0 | 3.0 | Very Good |
-| **C** | 3.0 | 2.0 | Good |
-| **D** | 2.0 | 1.0 | Pass |
-| **E** | 1.0 | 0.0 | Fair |
-| **F** | 0.0 | 0.0 | Fail |
 
----
 
-## 🛡️ Technical Problem Solving (Dev Logs)
 
-### 1. The "oklab" Rendering Conflict
-**Problem:** The PDF library (`html2canvas`) crashed when encountering modern CSS `oklab()` and `oklch()` color functions.
-
-**Solution:** Implemented a DOM-cloning strategy via the `onclone` hook to strip and replace high-definition colors with standard HEX/RGB during the capture process.
-
-### 2. Infrastructure Resilience
-**Problem:** Google Cloud billing restrictions blocked Firestore initialization.
-
-**Solution:** Pivoted to a **Local-First** architecture, prioritizing user data persistence in the browser to ensure 100% uptime.
-
----
-
- *Project built by Okafor Emmanuel Chukwuemeka*
