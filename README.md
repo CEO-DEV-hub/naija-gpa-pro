@@ -14,9 +14,7 @@
 * **Persistent Storage:** Uses **LocalStorage** to ensure records remain on the user's device even without a backend connection or internet access.
 * **Professional PDF Export:** A custom-engineered "Statement of Results" generator that bypasses modern CSS rendering bugs to provide a clean, printable document.
 * **Real-time Computation:** Instant CGPA updates as grades and units are entered—no page refreshes required.
-* **Always-On Strategy:** Integrated with **Cron-job.org** to prevent "Cold Starts" on the Vercel edge network, ensuring sub-second load times.
 
----
 
 ## 🛠️ Technical Stack
 
