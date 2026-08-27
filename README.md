@@ -3,10 +3,6 @@
 
 **Naija GPA Pro** is a high-performance, web-based tool designed specifically for students in Nigerian tertiary institutions. It combines a high-end "Glassmorphic" UI with precise academic computation logic to allow students to calculate, save, and export professional grade statements.
 
----
-
-
----
 
 ## ✨ Key Features
 
